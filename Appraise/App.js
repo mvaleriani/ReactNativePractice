@@ -15,7 +15,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundImage: 'linear-gradient(to bottom, #6A82FB, #FC5C7D)',
+    backgroundColor: 'blue',
     alignItems: 'center',
     justifyContent: 'center',
   },
