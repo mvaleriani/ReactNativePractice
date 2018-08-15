@@ -7,6 +7,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Text>Shake your phone to open the developer menu.</Text>
         <Text>Testing Text</Text>
+        <Text></Text>
       </View>
     );
   }
