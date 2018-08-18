@@ -6,22 +6,16 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Shake your phone to open the developer menu.</Text>
-        <Text>Testing Text</Text>
-        <Text></Text>
       </View>
     );
   }
 }
 
-
-
-
 const styles = StyleSheet.create({
   container: {
-    flex: 7,
-    backgroundColor: 'black',
+    flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center'
-  },
-  
+  },  
 });
